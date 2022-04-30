@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+header, footer {
+    width: 100vw;
+    background-color: rgba(100, 100, 90, 0.7);
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image:url("../img/IMG_7302.png");
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size:100% auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.txt {
+    color: white;
+    font-family:'Amatic SC', cursive;
+}
+
+#header-text {
+    font-size: 500%;
+    padding: 5pt;
+    color: white;
+}
+
+#footer-text {
+    font-size: 100%;
+    padding: 2pt;
+}
+
+.item {
+    font-family:'Amatic SC', cursive;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-left-item {
+    height: 60vh;
+    font-size: 800%;
+}
+
+#top-right-item {
+    height: 60vh;
+    font-size: 500%;
+}
+
+#bottom-left-item {
+    height: 10vh;
+    font-size: 300%;
+}
+
+#bottom-right-item {
+    height: 10vh;
+    font-size: 300%;
+}
