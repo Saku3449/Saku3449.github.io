@@ -83,6 +83,7 @@ footer {
     align-items: center;
     height: 78vh;
     width: 80vw;
+    margin: 0 auto;
 }
 
 .SNS {
@@ -119,17 +120,13 @@ footer {
         font-size: 400%;
     }
 
-    .container {
-        margin-left: auto;
-        margin-right: auto;
-    }
     #main-item {
-        font-family:'Amatic SC', cursive;
-        color: black;
-        background-color: rgba(255, 255, 255, 0.9);
-        justify-content: center;
-        align-items: center;
-        height: 78vh;
-        width: 80vw;
+        margin: 0 auto;
     }
+  }
+
+  @media screen and (max-width:600px) {
+      iframe {
+          width: 100%;
+      }
   }
