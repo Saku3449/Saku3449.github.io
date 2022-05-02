@@ -19,7 +19,7 @@ body {
     background-image:url("../img/IMG_7302.png");
     background-repeat: no-repeat;
     background-position:50% 50%;
-    background-size:100% auto;
+    background-size:100% 100%;
 }
 
 footer {
@@ -89,3 +89,47 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:580px) {
+    .item {
+        width: 100%;
+        font-family:'Amatic SC', cursive;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.9);
+        
+        align-items: center;
+    }
+    #top-left-item {
+        height: 20vh;
+        font-size: 400%;
+    }
+    
+    #top-right-item {
+        height: 20vh;
+        font-size: 400%;
+    }
+    
+    #bottom-left-item {
+        height: 20vh;
+        font-size: 400%;
+    }
+    
+    #bottom-right-item {
+        height: 20vh;
+        font-size: 400%;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main-item {
+        font-family:'Amatic SC', cursive;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.9);
+        justify-content: center;
+        align-items: center;
+        height: 78vh;
+        width: 80vw;
+    }
+  }
