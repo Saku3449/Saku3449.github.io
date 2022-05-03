@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', function(){
-    window.addEventListener('resize', function(){
+    // window.addEventListener('resize', function(){
         if(window.outerWidth < 600) {
             document.querySelector('#access-item').setAttribute('class', '');
         }
@@ -18,5 +18,5 @@ window.addEventListener('DOMContentLoaded', function(){
             document.querySelector('#bottom-left-item').setAttribute('class', 'col-sm-8 item');
             document.querySelector('#bottom-right-item').setAttribute('class', 'col-sm-3 item');
         }
-    });
+    // });
   });
